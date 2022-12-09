@@ -32,14 +32,14 @@ The key takeaways from this demo are:
 
 ## Before you begin
 
-Power Apps for 30 days free trial you an use. Please click the [link](https://learn.microsoft.com/en-us/power-apps/maker/signup-for-powerapps) 
-
+No Pre-reuisites are required for this specific demo.
+ 
 ## Walkthrough 
 
 Now, Let us try the Inventory Management System App and see how it executes. 
 We are going to launch the App and make some pricing updates to XBOX Controllers. 
 1.	Please click on this [link](https://admin.powerplatform.microsoft.com/) to open the Power platform admin center.
-2.	Once the Power Platform get loaded and ask for the credentials, enter the credentials given by Cloudlabs, and then select Contoso Traders default environment.
+2.	Once the Power Platform get loaded please login with your Microsoft 365 account.
 3.	To launch the App go to the Apps tab and Click on Inventory Management System
 
        ![App1](images/UApp1.png)
