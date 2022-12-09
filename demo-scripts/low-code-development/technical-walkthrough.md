@@ -45,9 +45,9 @@ Inventory Management System App was built in Canvas App by using cloud database 
   
 8. On the Product Details Screen select the form, then select Item property from the dropdownlist on hte top left side. This formula is for displaying the selected item stored from the variable.
 
-   ![img](images/Napp4.png)
+  ![img](images/NApp4.png)
 
-
+  
 9. Select the ProductDetails screen select update icon, then select onselect property from the dropdown on the top left side, see the formula. This formula is for navigating to the Update screen. 
    
    ![img](images/NApp3.png)
@@ -60,12 +60,12 @@ Inventory Management System App was built in Canvas App by using cloud database 
        
  11. After clicking on the “Send for the Approval” button, it will trigger a notification message of Approval request into Microsoft Teams channel named “ProductPriceUpdate”. It has been configured by using Adaptive cards.
 
-    ![TApp5](images/App7.png)       
+   ![TApp5](images/App7.png)       
   
        
  12. In this Approval request Adaptive card we can see three buttons, one is for View Items, when the stakeholder click on view item it will redirect to a SharePoint list having the details of the product to be updated. Another two buttons are for Approve and Reject. When the Stakeholder click on Reject it will pass a message in the channel “Rejected”. When the stakeholder click on Approve it will pass a message in the channel “Approved” and immediately after a while another message will comes “Price updated”.
        
-    ![TApp6](images/App9.png)
+   ![TApp6](images/App9.png)
        
  Also it will automatically updated the price in the website as well as database.
 
