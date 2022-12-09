@@ -27,7 +27,7 @@ The key takeaways from this demo are:
 * Power Apps is used help developers and business users to build custom solutions to meet business goals as it is a Low-Code approach to development. Three types of Power Apps, Canvas App, Model-driven App and Portals can be devloped.
 * Power Apps is used to integrate with Power Automate enables to businesses to automate several activities like sending notifications, approvals etc. Developers can leverage their data from Microsoft services and third party connections by using different connectors available in Power App platform.
 * With Power Automate developers and business users can easily build and deploy various workflows and can integrate with Adaptive Cards.
-* Adaptive cards can be used to send notifications or messages to the audience by using bot or message extension. It is a 
+* Adaptive cards can be used to send notifications or messages to the audience by using bot or message extension. 
 
 
 ## Before you begin
