@@ -8,10 +8,9 @@ The Key takeaways from this demo are:
 
 * Power Apps is used to help developers and business users to build custom solutions to meet business goals as it is a Low-Code approach to development. How effectively with a simple canvas contoso traders resolved their issue
 * Canvas App configuration and screens coding explained
-* Canvase App used Power automate workflow with adaptive cards to send the notifications to a Teams channel by using bot.
-* Adaptive cards can be used to send notifications or messages to the audience by using bot or message extension. 
-
-Power platform 
+* Canvas app used a dataverse connection with Azure SQL database by configuring SQL Server connection from the Power App Dataverse connections.
+* Canvas App used Power automate workflow with adaptive cards to send the notifications to a Teams channel by using bot.
+* Adaptive cards can be used to send notifications or messages to the audience by using bot or message extension.
 
 ## Before you begin
 
@@ -19,19 +18,35 @@ You must have Inventory Management System App deployed in your Power platform en
 
 ## Walkthrough - Power App 
 
-Inventory Management System App was built in Canvas App by using cloud database connectivity. Databases are kept in Azure SQL Database. We can use the app for CRUD operations. In Contoso Traders they need the Update operation through an automation process, before update the price of any product the stakeholders should approve and once it get approved the price will updated automatically. Based on this scenario the App built and it has eight screens. Lets go through each screen and explore how its configured and what are the scripts and formulas applied.  
+Inventory Management System App was built in Canvas App by using cloud database connectivity. Databases are kept in Azure SQL Database. We can use the app for CRUD operations. In Contoso Traders they need the Update operation through an automation process, before update the price of any product the stakeholders should approve and once it get approved the price will updated automatically. Based on this scenario the App built. Lets go through some of the screens in detail and explore how its configured and what are the scripts and formulas applied.    
+  
+      
+1. Login into the Power platform with your Microsoft 365 user account. 
+
+2. After login into the Power platform select the environment where the Inventory Management System App imported.
+
+3. Select Apps and Select Inventory Management App, then click on Edit from the top side.
+
+   ![img](images/TApp1.png)
+
+4. It will open Power app studio where you can see the number screens added,  the details of connections and the workflow.
+
+5. Select the first screen named Inventory and select the list icon and on the left top side from the dropdown list select OnSelect and see the formula added. This formula is for when a user click on the product list it will navigate to Products Screen. 
+   ![img](images/TApp2.png)
+
+
+6. Product List screen will show all the products in a vertical gallery. Select the vertical gallery and on the left top side Select Items from the dropdown list and see the formula added there. This formula will list the entire data from the table Products of the Azure SQL database productsdb. Also a user can search the product by its name on the search box.
+
+    ![img](images/NApp1.png)
+
+7.Select the Onselect of the Vertical gallery in the same screen, see the formula added there. A variable created and it stored the value of item selected by the user from the gallery. Also it will navigate to ProductDetails screen.
+
+  ![img](images/NApp2.png)   
+  
+8. After reaching the ProductDetails screen user can see the details of the product selected, then click the update icon
+      
      
       
-1. In the Login button’s Onselect property added code in the below image:
-      
-    ![TApp2](images/TApp2.png)
-      
-2. User will reach into Inventory Management Screen, by clicking on Product List they can view Product List screen having all the products listed from the database named Productdb. They can scroll it down to view all the Products. If they want to check a particular product details they can click on the name of the product and it will navigate to Product Details Screen. If they decided to update the product, they can click on the Update icon on the top of screen. It will navigate to Product Update Screen. Here as an example the price of the Product named “XBOX wireless controller lunar shift special edition” is going to be updated. Current price of the product is $99, after updating the price to $100 click on “Send for approval” button, it will trigger an approval request to the teams, and the stakeholders can approve the request, once it get approved, business user can see the message as approved and automatically the amended price will be updated in the website as well as the database. So getting this desired output, on the update screen added one Edit form which connected to the datasource, and a lookup function set the item property of the form which will find single record matches the criteria, here the criteria is the record saved into a variable named “SelectedItemname”. So when a user select a particular product, the details of the product will save into the  variable and will display into the form. 
-       
-       
-    ![TApp3](images/TApp3.png)
-       
-       
  3. Here on the “Send Approval” button configure a workflow named “Adaptiveworkflow1”. Also the updated details will be fetched into a SharePoint list named “UpdatePrice”.
        
     ![TApp4](images/TApp4.png)
