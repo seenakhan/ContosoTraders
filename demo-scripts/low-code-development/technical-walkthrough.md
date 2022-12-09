@@ -1,18 +1,19 @@
-**Technical Walkthrough of Solution**
-------------------------------------
+# Low Code Development – Canvas App with Power Automate : Overview
 
 Power platform helps to build the Inventory Management System App for resolving the issues in the current scenario of Contoso Traders. It enables the collaborations internally. Two main components of Power platform were used to build the application viz, PowerApp and Power Automate. Lets walkthrough each component and how its configured. 
 
-**Power App**
+## Key Takeaways
+
+
+## Before you begin
+
+
+## Walkthrough - Power App 
 
 Inventory Management System App was built in Canvas App by using cloud database connectivity. Databases are kept in Azure SQL Database. We can use the app for CRUD operations. In Contoso Traders they need the Update operation through an automation process, before update the price of any product the stakeholders should approve and once it get approved the price will updated automatically. Based on this scenario the App built and it has eight screens. Lets go through each screen and explore how its configured and what are the scripts and formulas applied.  
-
-1. Home Screen allows to login into Inventory Management System App. In Home screen added the Text labels for “Inventory Management System” and “Sign into continue”. Added Contoso Traders logo and some images. Also added two Text inputs to enter username and password. Configured the password Text input’s property mode as password and provided hint texts to both text inputs. Added a login button and configured the connection with a SharePoint list having Contoso Traders business users data. It will validate the username and password entered into the Home screen.
-
-    ![TApp1](images/TApp1.png)
      
       
-2. In the Login button’s Onselect property added code in the below image:
+1. In the Login button’s Onselect property added code in the below image:
       
     ![TApp2](images/TApp2.png)
       
@@ -38,7 +39,7 @@ Inventory Management System App was built in Canvas App by using cloud database 
        
  Also it will automatically updated the price in the website as well as database.
 
-**POWER AUTOMATE**
+## Walk through - POWER AUTOMATE
 
 Let’s walkthrough the workflow named “Adaptiveworkflow1”. Here the requirement is when a business user trying to update the price of any product, it should automate an approval request to a Teams Channel and the stakeholder can approve it. To build the workflow Power automate tool has been used.
 
@@ -67,8 +68,12 @@ And for the If No flow configured a Post message in a chat or channel 2. Below i
 
    ![TApp9](images/TApp9.png)
 
+## Summary
 
-**Conclusion: With Power platform tools automation for any complex business scenarios can be configured and deployed easily. We can do more use cases by using various functionalities of Power platform tools.
+With Power platform tools automation for any complex business scenarios can be configured and deployed easily. We can do more use cases by using various functionalities of Power platform tools.
+
+## Additional Reading
+
 
 
       
