@@ -34,7 +34,7 @@ The key takeaways from this demo are:
 
 You must have Inventory Management System App deployed in your Power platform environment. If you have not deployed it yet, please refer the [documentation](https://github.com/seenakhan/ContosoTraders/blob/main/docs/Inventory-power-app-deployment-guide.md).
  
-## Walkthrough 
+## Walkthrough - Inventory Management System App
 
 Please create a Teams group named TailwindTradersApproval and a channel named ProductPriceUpdate in your Microsoft Teams.
 
