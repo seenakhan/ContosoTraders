@@ -47,7 +47,7 @@ Let's create a Microsoft team and add a channel.
 
 Please create a Public Teams group named "Contoso Traders Inventory" and a channel named "Pricing Updates" in your Microsoft Teams by using below steps
    
-1. Login into Microsoft Teams please select Teams then click Join or create a Team from the bottom left side.
+1. Login into Microsoft Teams with your global administrator account and please select Teams then click Join or create a Team from the bottom left side.
    
    ![img](images/tm4.png)
    
