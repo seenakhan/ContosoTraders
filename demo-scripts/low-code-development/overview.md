@@ -17,8 +17,8 @@ To do the automation we are using Power App Studio and Power Automate along with
 
 * Microsoft 365 is the collaboration platform for business users. Microsoft 365 offers different applications like Microsoft Office, Outlook, Teams, Power Platform, SharePoint etc. To resolve the issues in the current scenario, Contoso Traders decided to build an app in power platform  by using MS Cloud services like, Teams, cosmos etc., allowed to implement an end to end solution which’d update price on final website (contosotraders.com) with zero manual efforts from engineering/other teams and is fully automated with approval process in place. 
 * PowerApps allows us to build custom apps, to accommodate our business needs or solve our issues when we cannot find a suitable off-the-shelf solution. PowerApps can easily connect to our stored business data, which is either located in Microsoft Dataverse or within an on-premise/online data source, for example; Excel, SharePoint, Office 365, SQL Server and Dynamics365. Also service in the Power platform  named Power Automate  can use for creating workflows to automate our processes.
-* Created a custom Power App named Inventory Management System along with Power Automate workflow. This Inventory Management System App helps business users to easily update the price of a product by taking the approval from the corresponding approvers (managers).
-* When a business user send the approval request for updating the price of a particular product to the Approver through the Inventory Management App, a request will trigger in Microsoft Teams channel and the approver can view the request and open the view items in the request to view the product details to be updated. When the approver approves the request, business user can view it at the same time and the price will update in the website as well as database automatically. When the approver rejects the request business user can view the message at the same time.
+* Created a custom Power App named Inventory Management System along with Power Automate workflow. This Inventory Management System App helps business users to easily update the price of a product by taking the approval from the stakeholders.
+* When a business user send the approval request for updating the price of a particular product to the Approver through the Inventory Management App, a request will trigger in Microsoft Teams channel and the stakeholder can view the request and open the view items in the request to view the product details to be updated. When the stakeholder approves the request, business user can view it at the same time on the same Teams channel and the price will update in the website as well as database automatically. When the approver rejects the request business user can view the message at the same time.
 
 ## Key Takeaway
 
@@ -32,7 +32,7 @@ The key takeaways from this demo are:
 
 ## Before you begin
 
-You must have Inventory Management System App deployed in your Power platform environment and setup with GitHub Actions. If you have not deployed it yet, please refer the [documentation](https://github.com/seenakhan/ContosoTraders/blob/main/docs/Inventory-power-app-deployment-guide.md).
+You must have Inventory Management System App deployed in your Power platform environment. If you have not deployed it yet, please refer the [documentation](https://github.com/seenakhan/ContosoTraders/blob/main/docs/Inventory-power-app-deployment-guide.md).
  
 ## Walkthrough 
 
