@@ -35,6 +35,42 @@ For the purpose of demonstration, you should have following users in your M365 t
 
 You can create new user accounts or use existing accounts. Please follow [this documentation](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide). to learn more about creating users and assigning licenses. 
 
+<h3>Create Microsoft Teams and add a Channel</h3>
+
+Microsoft Teams is a collaborative workspace within Microsoft 365/Office 365 that serves as a central hub for workplace conversations, collaborative teamwork, video chats, and document sharing, all in a unified suite of tools designed to boost worker productivity.
+
+In Power Apps, Microsoft Teams can be integrated easily and used as a datasource connection for sending notifications through workflows. Users can easily integrate adaptive cards with Teams and the workflow to send notifications to the teams.
+
+Contoso Traders used a customized solution in power apps with power automate and adaptive cards.
+
+Let's create a Microsoft team and add a channel.
+
+Please create a Public Teams group named "Contoso Traders Inventory" and a channel named "Pricing Updates" in your Microsoft Teams by using below steps
+   
+1. Login into Microsoft Teams please select Teams then click Join or create a Team from the bottom left side.
+   
+   ![img](images/tm4.png)
+   
+2. Then Join or Create a Team window will open, please select Create Team.
+   
+   ![img](images/TM1.png)
+   
+3. From the Create Team window please select From scratch
+   
+   ![img](images/tm2.png)
+   
+4. Please Select Public, then give the name "Contoso Traders Inventory" and click create,  you can skip to add members. Your Teams group is ready now.
+  
+   ![img](images/tm5.png)
+  
+5. Please click on the three dots (...) on the Teams name and select Add channel.
+   
+   ![img](images/tm3.png)
+   
+6. Add the channel name "Pricing Updates" and please click Add.
+   
+   Your Team is ready now. This channel we are using to recieve notifications through Adaptive cards workflow from the Canvas App.
+
 <h3>Create a SharePoint List</h3>
 
 Microsoft SharePoint is a web-based collaboration and document management platform. One of the key features of SharePoint is the ability to create and manage lists of data. 
