@@ -32,7 +32,7 @@ The key takeaways from this demo are:
 
 ## Before you begin
 
-You must have Inventory Management System App deployed in your Power platform environment and setup with GitHub Actions. If you have not deployed it yet, please refer the [documentation](../docs/Inventory-power-app-deployment-guide.md).
+You must have Inventory Management System App deployed in your Power platform environment and setup with GitHub Actions. If you have not deployed it yet, please refer the [documentation](..ContosoTraders/docs/Inventory-power-app-deployment-guide.md).
  
 ## Walkthrough 
 
