@@ -24,62 +24,69 @@ To do the automation we are using Power App Studio and Power Automate along with
 
 The key takeaways from this demo are:
 
-* Power Apps helps developers and business users to build custom solutions to meet business goals as it is a Low-Code approach to development. Three types of Power Apps, Canvas App, Model-driven App and Portals can be devloped.
-* Power Apps can easily integrate with Power Automate enables to businesses to automate several activities like sending notifications, approvals etc. Developers can leverage their data from Microsoft services and third party connections by using different connectors available in Power App platform.
+* Power Apps is used help developers and business users to build custom solutions to meet business goals as it is a Low-Code approach to development. Three types of Power Apps, Canvas App, Model-driven App and Portals can be devloped.
+* Power Apps is used to integrate with Power Automate enables to businesses to automate several activities like sending notifications, approvals etc. Developers can leverage their data from Microsoft services and third party connections by using different connectors available in Power App platform.
 * With Power Automate developers and business users can easily build and deploy various workflows and can integrate with Adaptive Cards.
 * Adaptive cards can be used to send notifications or messages to the audience by using bot or message extension.
 
 
 ## Before you begin
 
-No Pre-reuisites are required for this specific demo.
+You must have Inventory Management System App deployed in your Power platform environment and setup with GitHub Actions. If you have not deployed it yet, please refer the [documentation](../docs/Inventory-power-app-deployment-guide.md).
  
 ## Walkthrough 
 
 Now, Let us try the Inventory Management System App and see how it executes. 
-We are going to launch the App and make some pricing updates to XBOX Controllers. 
-1.	Please click on this [link](https://admin.powerplatform.microsoft.com/) to open the Power platform admin center.
-2.	Once the Power Platform get loaded please login with your Microsoft 365 account.
-3.	To launch the App go to the Apps tab and Click on Inventory Management System
 
-       ![App1](images/UApp1.png)
+We are going to launch the App and make some pricing updates on XBOX Controllers.
+
+1. Please click on this [link](https://admin.powerplatform.microsoft.com/) to open the Power platform admin center.
+
+2. Once the Power Platform get loaded please login with your Microsoft 365 account.
+
+3. To launch the App go to the Apps tab and Click on Inventory Management System
+
+   ![App1](images/UApp1.png)
        
       
-4.      After click on Login you will enter into the Inventory Management Screen. Let us look at product and find out the product where we need to update the price. 
+4. After click on Login you will enter into the Inventory Management Screen. Let us look at product and find out the product where we need to update the price. 
 	
-	![App3](images/App3.png)
+   ![App3](images/App3.png)
 
-5.	You will enter into Product List Screen and scroll it down or you can search by name in the search box, all the products you can see there and click on any product to see the details of it.	
+5. You will enter into Product List Screen and scroll it down or you can search by name in the search box, all the products you can see there and click on any product to see the details of it.	
 
-	![App4](images/App4.png)
+   ![App4](images/App4.png)
 	
-6. 	When you click on the first product to see the details, it will enter into the Product details screen. Let us update price from 90 to 100, as per the request from Finance teams
+6. When you click on the first product to see the details, it will enter into the Product details screen. Let us update price from 90 to 100, as per the request from Finance teams
 
-	![App5](images/App5.png)
+   ![App5](images/App5.png)
 	
-7. 	To update the price of the product, click on the Update Icon on the top of the screen.
-8.	After reaching into the Update Product Screen change the price to 100 and click on Send for the Approval.
+7. To update the price of the product, click on the Update Icon on the top of the screen.
 
-	![App6](images/App6.png)
+8. After reaching into the Update Product Screen change the price to 100 and click on Send for the Approval.
+
+   ![App6](images/App6.png)
 	
-9.     You will receive a message showing Sent for approval.
-10.	Now, approval request is sent to stakeholders. They’ll see in their teams channel. Let us login as one of the stakeholder and try it out. 
-11.	Check Microsoft Teams TailwindTradersApproval and channel named ProductPriceUpdate.
+9. You will receive a message showing Sent for approval.
+
+10. Now, approval request is sent to stakeholders. They’ll see in their teams channel. Let us login as one of the stakeholder and try it out. 
+
+11. Check Microsoft Teams TailwindTradersApproval and channel named ProductPriceUpdate.
 **(Note: When you are login into the Microsoft Teams please use the credentials used for enter into the power platform environment. Refer : Go to step no:II.)
 
-	![App7](images/App7.png)
+   ![App7](images/App7.png)
 	
-12.	When you enter into the channel mentioned above, review the adaptive card request and click on view items, you can see the product details to be updated in a sharepoint list.
+12. When you enter into the channel mentioned above, review the adaptive card request and click on view items, you can see the product details to be updated in a sharepoint list.
 
-	![App8](images/App8.png)
-13.	After viewing the price When you click on the approve button in the Microsoft Teams channel, it will send a message “Approved” and updated the new price in the website, also you will receive another message in the Teams channel “Price Updated”.
-
-	![App9](images/App9.png)
+   ![App8](images/App8.png)
 	
-14.	You can see the Updation of the price in the Website also by clicking the following link 
-https://www.contosotraders.com/list/controllers  
+13. After viewing the price When you click on the approve button in the Microsoft Teams channel, it will send a message “Approved” and updated the new price in the website, also you will receive another message in the Teams channel “Price Updated”.
 
-	![App10](images/App10.png)
+   ![App9](images/App9.png)
+	
+14. You can see the Updation of the price in the Website also by clicking the following [link](https://www.contosotraders.com/list/controllers) 
+
+   ![App10](images/App10.png)
 	
 ## Summary
 
