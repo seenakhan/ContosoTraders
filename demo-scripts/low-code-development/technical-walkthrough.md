@@ -58,7 +58,7 @@ Inventory Management System App was built in Canvas App by using cloud database 
    ![img](images/NApp5.png)
     
        
- 11. After clicking on the “Send for the Approval” button, it will trigger a notification message of Approval request into Microsoft Teams channel named “ProductPriceUpdate”. It has been configured by using Adaptive cards.
+ 11. After clicking on the “Send for the Approval” button, it will trigger a notification message of Approval request into Microsoft Teams channel named "Pricing Updates" on the Teams named “Contoso Traders Inventory”. It has been configured by using Adaptive cards.
 
    ![TApp5](images/App7.png)       
   
