@@ -50,7 +50,7 @@ You must have Inventory Management System App deployed in your Power platform en
    
    ![img](images/tm2.png)
    
-   4. Please Select Public, then given the name "Contoso Traders Inventory" and click create,  you can skip to add members. Your Teams group is ready now.
+   4. Please Select Public, then give the name "Contoso Traders Inventory" and click create,  you can skip to add members. Your Teams group is ready now.
   
    ![img](images/tm5.png)
   
