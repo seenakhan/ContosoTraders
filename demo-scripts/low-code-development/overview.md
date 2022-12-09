@@ -94,7 +94,7 @@ We are going to launch the App and make some pricing updates on XBOX Controllers
 
 In this scenario, we looked at how Inventory Management System App successfully automated the process of update price request approval. Stakeholders can easily identify the details of the product to be approved and once it get approved it will automatically update in website as well as database
 
-If you are interested in a technical walkthrough with steps, please follow the technical walkthrough [documentation](../demo-scripts/low-code-development/technical-walkthrough.md).
+If you are interested in a technical walkthrough with steps, please follow the technical walkthrough documentation.
 
 
 ## Additional References
