@@ -41,7 +41,7 @@ Microsoft Teams is a collaborative workspace within Microsoft 365/Office 365 tha
 
 In Power Apps, Microsoft Teams can be integrated easily and used as a datasource connection for sending notifications through workflows. Users can easily integrate adaptive cards with Teams and the workflow to send notifications to the teams.
 
-Contoso Traders used a customized solution in power apps with power automate and adaptive cards.
+Contoso Traders uses a customized solution in power apps with power automate and adaptive cards.
 
 Let's create a Microsoft team and add a channel.
 
