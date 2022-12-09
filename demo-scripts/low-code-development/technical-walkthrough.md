@@ -37,27 +37,33 @@ Inventory Management System App was built in Canvas App by using cloud database 
 
 6. Product List screen will show all the products in a vertical gallery. Select the vertical gallery and on the left top side Select Items from the dropdown list and see the formula added there. This formula will list the entire data from the table Products of the Azure SQL database productsdb. Also a user can search the product by its name on the search box.
 
-    ![img](images/NApp1.png)
+   ![img](images/NApp1.png)
 
 7.Select the Onselect of the Vertical gallery in the same screen, see the formula added there. A variable created and it stored the value of item selected by the user from the gallery. Also it will navigate to ProductDetails screen.
 
-  ![img](images/NApp2.png)   
+   ![img](images/NApp2.png)   
   
-8. After reaching the ProductDetails screen user can see the details of the product selected, then click the update icon
-      
-     
-      
- 3. Here on the “Send Approval” button configure a workflow named “Adaptiveworkflow1”. Also the updated details will be fetched into a SharePoint list named “UpdatePrice”.
-       
-    ![TApp4](images/TApp4.png)
-       
- 4. After clicking on the “Send for the Approval” button, it will trigger a notification message of Approval request into Microsoft Teams channel named “ProductPriceUpdate”. It has been configured by using Adaptive cards.
+8. On the Product Details Screen select the form, then select Item property from the dropdownlist on hte top left side. This formula is for displaying the selected item stored from the variable.
 
-    ![TApp5](images/App7.png)
-       
+   ![img](images/Napp4.png)
+
+
+9. Select the ProductDetails screen select update icon, then select onselect property from the dropdown on the top left side, see the formula. This formula is for navigating to the Update screen. 
    
+   ![img](images/NApp3.png)
+
+      
+10. On the UPdate screen select “Send for Approval” button configure a workflow named “Adaptiveworkflow1”. Also the product details to be updated will be fetched into a SharePoint list named “UpdatePrice”.
        
- 5. In this Approval request we can see three buttons, one is for View Items, when the stakeholder click on view item it will redirect to a SharePoint list having the details of the product to be updated. Another two buttons are for Approve and Reject. When the Stakeholder click on Reject it will pass a message in the channel “Rejected”. When the stakeholder click on Approve it will pass a message in the channel “Approved” and immediately after a while another message will comes “Price updated”.
+   ![img](images/NApp5.png)
+    
+       
+ 11. After clicking on the “Send for the Approval” button, it will trigger a notification message of Approval request into Microsoft Teams channel named “ProductPriceUpdate”. It has been configured by using Adaptive cards.
+
+    ![TApp5](images/App7.png)       
+  
+       
+ 12. In this Approval request Adaptive card we can see three buttons, one is for View Items, when the stakeholder click on view item it will redirect to a SharePoint list having the details of the product to be updated. Another two buttons are for Approve and Reject. When the Stakeholder click on Reject it will pass a message in the channel “Rejected”. When the stakeholder click on Approve it will pass a message in the channel “Approved” and immediately after a while another message will comes “Price updated”.
        
     ![TApp6](images/App9.png)
        
@@ -79,12 +85,10 @@ In this workflow three variables initialized with values submitted by, submitted
         
 After that configured “Post an Adaptive card and wait for response” flow. In this flow, configured an Adaptive card in json script and pass value of two variables submitted on and submitted by into the adaptive card. 
 
-
-*Refer the Adaptive card json file [here](https://github.com/seenakhan/ContosoTraders/blob/main/iac/Adaptivecard.json). * 
+** Refer the Adaptive card json file [here](https://github.com/seenakhan/ContosoTraders/blob/main/iac/Adaptivecard.json).** 
 
 After that a Condition control flow configured with a condition body(‘PostAdaptiveCardToChannelAndWaitforaresponse’)[‘submitActionId’] is equal to Approve. Along with the condition If Yes and IF No flows also configured When the stakeholder click on the Approve button then the If yes flow will execute. It has additional three flows added two flows are for passing the message on the Teams channel and One flow is for calling the variable having T-SQL update query. Below are the images shows the If Yes flow configuration.
 
- 
     
   ![TApp8](images/TApp8.png)
     
@@ -94,12 +98,16 @@ And for the If No flow configured a Post message in a chat or channel 2. Below i
 
 ## Summary
 
-With Power platform tools automation for any complex business scenarios can be configured and deployed easily. We can do more use cases by using various functionalities of Power platform tools.
+With Power platform tools any complex business scenarios can be configured and deployed easily. We can do more use cases by using various functionalities of Power platform tools.
 
 ## Additional Reading
 
+[Create a Canvas App](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/get-started-test-drive)
 
+[Adding workflows to Canvas App
+](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/using-logic-flows)
 
+[Configure Adaptive Card by using Adaptive card designer](https://adaptivecards.io/designer/)
       
       
       
