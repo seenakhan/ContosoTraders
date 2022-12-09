@@ -36,11 +36,11 @@ You must have Inventory Management System App deployed in your Power platform en
  
 ## Walkthrough - Inventory Management System App
 
-Please create a Teams group named TailwindTradersApproval and a channel named ProductPriceUpdate in your Microsoft Teams.
+   Please create a Teams group named TailwindTradersApproval and a channel named ProductPriceUpdate in your Microsoft Teams.
 
-Now, Let us try the Inventory Management System App and see how it executes. 
+   Now, Let us try the Inventory Management System App and see how it executes. 
 
-We are going to launch the App and make some pricing updates on XBOX Controllers.
+   We are going to launch the App and make some pricing updates on XBOX Controllers.
 
 1. Please login into your Power Apps platform with your Microsoft 365 account.
 
