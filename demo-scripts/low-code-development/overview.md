@@ -72,7 +72,8 @@ We are going to launch the App and make some pricing updates on XBOX Controllers
 8. Now, approval request is sent to stakeholders. Let's login into Microsoft Teams and check the channel you have created before as one of the stakeholder and try it out. 
 
 9. Check Microsoft Teams TailwindTradersApproval and channel named ProductPriceUpdate.
-**Note: When you are login into the Microsoft Teams please use the credentials used for enter into the power platform environment.
+
+**Note: When you are login into the Microsoft Teams please use the credentials used for enter into the power platform environment.**
 
    ![App7](images/App7.png)
 	
