@@ -36,7 +36,26 @@ You must have Inventory Management System App deployed in your Power platform en
  
 ## Walkthrough - Inventory Management System App
 
-   Please create a Teams group named TailwindTradersApproval and a channel named ProductPriceUpdate in your Microsoft Teams.
+   Please create a Public Teams group named "Contoso Traders Inventory" and a channel named "Pricing Updates" in your Microsoft Teams by using below steps
+   
+   1. Login into Microsoft Teams please select Teams then click Join or create a Team from the bottom left side.
+   2. Then Join or Create a Team window will open, please select Create Team.
+   
+   ![img](images/TM1.png)
+   
+   3. From the Create Team window please select From scratch
+   
+   ![img](images/tm2.png)
+   
+   4. Please Select Public, then given the name "Contoso Traders Inventory" and click create,  you can skip to add members. Your Teams group is ready now.
+  
+   5. Please click on the three dots (...) on the Teams name and select Add channel.
+   
+   ![img](images/tm3.png)
+   
+   6. Add the channel name "Pricing Updates" and please click Add.
+   
+   Your Team is ready now. This channel we are using to recieve Notification through Adaptive cards.
 
    Now, Let us try the Inventory Management System App and see how it executes. 
 
