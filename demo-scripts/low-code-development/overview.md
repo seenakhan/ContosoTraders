@@ -60,7 +60,7 @@ You must have Inventory Management System App deployed in your Power platform en
    
    6. Add the channel name "Pricing Updates" and please click Add.
    
-   Your Team is ready now. This channel we are using to recieve Notification through Adaptive cards.
+   Your Team is ready now. This channel we are using to recieve notifications through Adaptive cards workflow from the Canvas App.
 
    Now, Let us try the Inventory Management System App and see how it executes. 
 
