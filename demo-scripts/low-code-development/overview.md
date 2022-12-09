@@ -27,7 +27,7 @@ The key takeaways from this demo are:
 * Power Apps is used help developers and business users to build custom solutions to meet business goals as it is a Low-Code approach to development. Three types of Power Apps, Canvas App, Model-driven App and Portals can be devloped.
 * Power Apps is used to integrate with Power Automate enables to businesses to automate several activities like sending notifications, approvals etc. Developers can leverage their data from Microsoft services and third party connections by using different connectors available in Power App platform.
 * With Power Automate developers and business users can easily build and deploy various workflows and can integrate with Adaptive Cards.
-* Adaptive cards can be used to send notifications or messages to the audience by using bot or message extension.
+* Adaptive cards can be used to send notifications or messages to the audience by using bot or message extension. It is a 
 
 
 ## Before you begin
@@ -35,6 +35,8 @@ The key takeaways from this demo are:
 You must have Inventory Management System App deployed in your Power platform environment and setup with GitHub Actions. If you have not deployed it yet, please refer the [documentation](../docs/Inventory-power-app-deployment-guide.md).
  
 ## Walkthrough 
+
+Please create a Teams group named TailwindTradersApproval and a channel named ProductPriceUpdate in your Microsoft Teams.
 
 Now, Let us try the Inventory Management System App and see how it executes. 
 
@@ -49,30 +51,30 @@ We are going to launch the App and make some pricing updates on XBOX Controllers
    ![App1](images/UApp1.png)
        
       
-4. After click on Login you will enter into the Inventory Management Screen. Let us look at product and find out the product where we need to update the price. 
+4. After click on Login you will enter into the Inventory Management Screen. Please click on Product List. 
 	
    ![App3](images/App3.png)
 
-5. You will enter into Product List Screen and scroll it down or you can search by name in the search box, all the products you can see there and click on any product to see the details of it.	
+5. You will enter into Product List Screen and scroll it down or you can search by name in the search box, all the products you can see there and click on the first product named "XBOX Wireless Controller Lunar Shift Special Edition".	
 
-   ![App4](images/App4.png)
+   ![App4](images/UApp4.png)
 	
-6. When you click on the first product to see the details, it will enter into the Product details screen. Let us update price from 90 to 100, as per the request from Finance teams
+6. When you click on the first product to see the details, you will navigate to the Product details screen. To update the price of the product, click on the Update Icon on the top of the screen.
 
    ![App5](images/App5.png)
 	
-7. To update the price of the product, click on the Update Icon on the top of the screen.
-
-8. After reaching into the Update Product Screen change the price to 100 and click on Send for the Approval.
+7. After reaching into the Update Product Screen change the price to 100 and click on Send for the Approval.
 
    ![App6](images/App6.png)
 	
-9. You will receive a message showing Sent for approval.
+8. You will receive a message on the top of the screen showing Sent for approval.
 
-10. Now, approval request is sent to stakeholders. They’ll see in their teams channel. Let us login as one of the stakeholder and try it out. 
+   ![img](images/UApp3.png)
+
+10. Now, approval request is sent to stakeholders. Let's login into Microsoft Teams and check the channel you have created before as one of the stakeholder and try it out. 
 
 11. Check Microsoft Teams TailwindTradersApproval and channel named ProductPriceUpdate.
-**(Note: When you are login into the Microsoft Teams please use the credentials used for enter into the power platform environment. Refer : Go to step no:II.)
+**Note: When you are login into the Microsoft Teams please use the credentials used for enter into the power platform environment.
 
    ![App7](images/App7.png)
 	
@@ -80,7 +82,7 @@ We are going to launch the App and make some pricing updates on XBOX Controllers
 
    ![App8](images/App8.png)
 	
-13. After viewing the price When you click on the approve button in the Microsoft Teams channel, it will send a message “Approved” and updated the new price in the website, also you will receive another message in the Teams channel “Price Updated”.
+13. After viewing the price When you click on the approve button in the Microsoft Teams channel, it will send a message “Approved” in the same channel and also updated the new price in the website, also you will receive another message in the Teams channel “Price Updated”.
 
    ![App9](images/App9.png)
 	
@@ -92,13 +94,16 @@ We are going to launch the App and make some pricing updates on XBOX Controllers
 
 In this scenario, we looked at how Inventory Management System App successfully automated the process of update price request approval. Stakeholders can easily identify the details of the product to be approved and once it get approved it will automatically update in website as well as database
 
-If you are interested in a technical walkthrough with steps, please follow the technical walkthrough documentation.
-.
+If you are interested in a technical walkthrough with steps, please follow the technical walkthrough [documentation](../demo-scripts/low-code-development/technical-walkthrough.md).
+
 
 ## Additional References
 
+[Getting started with Canvas App](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/getting-started)
 
+[Power Automate Overview](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/)
 
+[Adaptive Card for Teams](https://learn.microsoft.com/en-us/power-automate/overview-adaptive-cards)
 
 
 	
