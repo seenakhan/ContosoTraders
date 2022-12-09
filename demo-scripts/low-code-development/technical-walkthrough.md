@@ -63,7 +63,7 @@ Inventory Management System App was built in Canvas App by using cloud database 
    ![TApp5](images/FApp1.png)       
   
        
- 12. In this Approval request Adaptive card we can see three buttons, one is for View Items, when the stakeholder click on view item it will redirect to a SharePoint list having the details of the product to be updated. Another two buttons are for Approve and Reject. When the Stakeholder click on Reject it will pass a message in the channel “Rejected”. When the stakeholder click on Approve it will pass a message in the channel “Approved” and immediately after a while another message will comes “Price updated”.
+ 12. In this Approval request we can see three buttons, one is for View Items, when the stakeholder click on view item it will redirect to a SharePoint list having the details of the product to be updated. Another two buttons are for Approve and Reject. When the Stakeholder click on Reject it will pass a message in the channel “Rejected”. When the stakeholder click on Approve it will pass a message in the channel “Approved” and immediately after a while another message will comes “Price updated”.
        
    ![TApp6](images/FApp2.png)
        
@@ -73,11 +73,11 @@ Inventory Management System App was built in Canvas App by using cloud database 
 
 Let’s walkthrough the workflow named “Adaptiveworkflow1”. Here the requirement is when a business user trying to update the price of any product, it should automate an approval request to a Teams Channel and the stakeholder can approve it. To build the workflow Power automate tool has been used.
 
-1. An instant cloud workflow has been created.
+1. An instant cloud workflow has been created. This is the structure of the workflow.
 
    ![TApp5](images/TApp5.png)
         
-In this workflow three variables initialized with values submitted by, submitted on and an update T-SQL query respectively.
+In this workflow three variables named SubmittedBy, SubmittedOn and  Qry initialized with values. SubmittedBy stores the user name who sent the approval. SubmittedOn stores the date and time of the approval sent and Qry stores the Update T-SQL query.
            
    ![TApp13](images/TApp6.png)
    
