@@ -35,34 +35,8 @@ The key takeaways from this demo are:
 You must have Inventory Management System App deployed in your Power platform environment. If you have not deployed it yet, please refer the [documentation](https://github.com/seenakhan/ContosoTraders/blob/main/docs/Inventory-power-app-deployment-guide.md).
  
 ## Walkthrough - Inventory Management System App
-
-   Please create a Public Teams group named "Contoso Traders Inventory" and a channel named "Pricing Updates" in your Microsoft Teams by using below steps
-   
-   1. Login into Microsoft Teams please select Teams then click Join or create a Team from the bottom left side.
-   
-   ![img](images/tm4.png)
-   
-   2. Then Join or Create a Team window will open, please select Create Team.
-   
-   ![img](images/TM1.png)
-   
-   3. From the Create Team window please select From scratch
-   
-   ![img](images/tm2.png)
-   
-   4. Please Select Public, then give the name "Contoso Traders Inventory" and click create,  you can skip to add members. Your Teams group is ready now.
   
-   ![img](images/tm5.png)
-  
-   5. Please click on the three dots (...) on the Teams name and select Add channel.
-   
-   ![img](images/tm3.png)
-   
-   6. Add the channel name "Pricing Updates" and please click Add.
-   
-   Your Team is ready now. This channel we are using to recieve notifications through Adaptive cards workflow from the Canvas App.
-
-   Now, Let us try the Inventory Management System App and see how it executes. 
+   Now, Let's try the Inventory Management System App and see how it executes. 
 
    We are going to launch the App and make some pricing updates on XBOX Controllers.
 
